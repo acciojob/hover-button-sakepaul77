@@ -1,10 +1,16 @@
-#btn{
-	background-color:black;
-	color:white;
-	border-radius:5px;
-	border:none;
-	
+/* Initial State */
+#btn {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
+
+/* Hover State */
 #btn:hover {
   background-color: yellow;
   color: black;
